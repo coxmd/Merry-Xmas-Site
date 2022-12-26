@@ -310,10 +310,57 @@ img {
 
 
 /*=============== ABOUT ===============*/
+.about__container{
+  position: relative;
+  row-gap: 3.5rem;
+}
 
+.about__data{
+  text-align: center;
+}
+
+.about__description{
+  margin-bottom: 2rem;
+}
+
+.about__img{
+  width: 320px;
+  justify-self: center;
+}
+
+.about__snow-1,
+.about__snow-2{
+  width: 50px;
+  position: absolute;
+}
+
+.about__snow-1{
+  top: 12rem;
+  left: 1.5rem;
+  animation: var(--animate-snow-1);
+}
+
+.about__snow-2{
+  right: -.75rem;
+  bottom: .5rem;
+  animation: var(--animate-snow-2);
+}
 
 /*=============== BUTTON ===============*/
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  padding: 1rem 2rem;
+  border-radius: 4rem;
+  color: var(--white-color);
+  font-weight: var(--font-medium);
+  transition: background .4s, box-shadow .4s;
+}
 
+.button:hover{
+  background-color: var(--first-color-alt);
+  box-shadow: 0 8px 32px hsla(210, 80%, 54%, .7);
+}
 
 /*=============== SEND ===============*/
 
