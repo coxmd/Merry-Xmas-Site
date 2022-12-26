@@ -419,6 +419,41 @@ img {
 
 
 /*=============== CELEBRATE ===============*/
+.celebrate__container{
+  position: relative;
+  row-gap: 3.5rem;
+}
+
+.celebrate__data {
+  text-align: center;
+}
+
+.celebrate__description{
+  margin-bottom: 2rem;
+}
+
+.celebrate__img{
+  width: 320px;
+  justify-self: center;
+}
+
+.celebrate__snow-1,
+.celebrate__snow-2{
+  width: 50px;
+  position: absolute;
+}
+
+.celebrate__snow-1{
+  top: 1.5rem;
+  left: 1.5rem;
+  animation: var(--animate-snow-1);
+}
+
+.celebrate__snow-2{
+  top: 18rem;
+  right: 0;
+  animation: var(--animate-snow-2);
+}
 
 
 /*=============== FOOTER ===============*/
